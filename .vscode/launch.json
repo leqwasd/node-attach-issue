@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "address": "localhost",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 5555,
+            "remoteRoot": "/app",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        }
+    ]
+}

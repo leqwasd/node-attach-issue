@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+    my-service:
+        build:
+            context: ./
+        volumes:
+            - ./build:/app/build
+        ports:
+            - 4444:80
+            - 5555:9229
